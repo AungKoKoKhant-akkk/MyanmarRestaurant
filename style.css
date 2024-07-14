@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-rendering: optimizeLegibility !important;
+
+}
+
+.navbar-default.scrolled {
+    background-color: #000000;
+
+}
+
+#counter {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/banner/Banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 35px;
+}
+
+.stats {
+    background: url(assets/banner/Banner1.jpg)no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    position: relative;
+    margin: 2em 0 0;
+}
+
+h3.stats-title.statstitle2 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    color: #e8c574;
+    font-family: "Courgette";
+}
+
+.stats_grid_right {
+    text-align: left;
+}
+
+.stats_grid_left1 {
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+}
+
+/*-- Skills bar effects --*/
+.skillbar {
+    position: relative;
+    display: inline-block;
+    margin: 15px 0;
+    width: 100%;
+    background: #eee;
+    height: 18px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    font-weight: bold;
+    font-size: 1em;
+    color: #ffffff;
+    background: #6adcfa;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 100%;
+    line-height: 17px;
+}
+
+.skillbar-bar {
+    height: 100%;
+    width: 0px;
+    background: #2ebaef;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    font-size: 1em;
+    height: 100%;
+    color: #fff;
+}
+
+/*-- //bars --*/
+/*-- //stats --*/
+.rating {
+    color: #e8c574;
+}
+
+.date {
+    color: black;
+}
+
+.photo img {
+    border-radius: 50%;
+}
+
+.textfont {
+    color: white;
+}
+
+.cardstyle img {
+    height: 300px;
+}
+
+.contact {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/banner/Banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    background-attachment: fixed;
+    padding: 35px;
+}
+
+/*--history--*/
+.history-info {
+    background: linear-gradient(rgba(0, 0, 0, .5)0, rgba(0, 0, 0, .5)100%),
+        url(assets/img/history.jpg);
+    /*background-image: url(image/bannar.jpg);*/
+    background-size: cover;
+    background-position: center;
+    /*background-size: cover;*/
+
+    margin-top: 3px;
+
+    text-align: center;
+}
+
+.history h2 {
+    color: rgb(208, 240, 48);
+}
+
+.history h4 {
+    font-size: 3.5em;
+    color: #839EEC;
+    font-weight: 700;
+}
+
+.history p.text {
+    color: #fff;
+    margin: 1em 0;
+}
+
+.history h6 {
+    font-size: 2em;
+    color: #fff;
+}
+
+.history h5 {
+    font-size: 1.2em;
+    color: #839EEC;
+    margin: 1em auto 0;
+    width: 55%;
+    line-height: 1.8em;
+}
+
+/*--about-slid--*/
+/*--//about-page--*/
+
+
+/*--//banner--*/
+/*--banner-bottom--*/
+.banner-bottom {
+    background: #ffffff;
+}
+
+.bnr-btm-left {
+    float: left;
+    width: 50%;
+    padding: 8em 6em 4em 7em;
+    color: black;
+}
+
+.bnr-btm-right {
+    float: right;
+    width: 50%;
+    padding: 8em 6em 4em 7em;
+    color: #e8c574;
+}
+
+.bnr-btm-left img {
+    width: 100%;
+
+}
+
+.bnr-btm-right img {
+    width: 100%;
+
+}
+
+.bnr-btm-left h4 {
+    font-size: 1.8em;
+    color: #F9F9F9;
+    margin-bottom: 1em;
+    font-family: "Courgette";
+    line-height: 1.4em;
+
+}
+
+.banner-bottom p,
+.banner-about p {
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.8em;
+    margin-top: 1em;
+}
+
+.banner-about iframe,
+.banner-about-right {
+    width: 100%;
+    height: 375px;
+    border: 0;
+}
+
+.bnr-btm-right h3,
+.banner-about h3 {
+    color: #FFF;
+    font-size: 2.5em;
+    line-height: 1.3em;
+}
+
+.bar {
+    display: block;
+    display: flex;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.cardpicture img {
+    height: 300px;
+}

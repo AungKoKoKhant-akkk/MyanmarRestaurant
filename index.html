@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Website</title>
+    <!--    for icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!--    custom css-->
+    <link rel="stylesheet" href="style.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/all.css"
+        integrity="sha384-5SjTwNK3NBlQzJR28Tn/MFBP+pCegHAAMkgj8o1sX8GxlCfzAyONqyH5qzT6OWbt" crossorigin="anonymous">
+    <!-- boxicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-gradient px-5 mt-1 navbar-default">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" width="160" height="32" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- home start -->
+
+
+
+    <section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade min-vh-100" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="20000">
+                    <img src="assets/banner/Banner3.jpg" class="d-block w-100 img-fluid  " alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="20000">
+                    <img src="assets/banner/Banner5.jpg" class="d-block w-100 img-fluid " alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="20000">
+                    <img src="assets/banner/Banner1.jpg" class="d-block w-100 img-fluid" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- home end -->
+
+    <!-- start Recommend -->
+    <section class="banner-main-agiles py-5">
+        <div class="banner-bottom-w3layouts" id="about">
+            <div class="container pt-xl-5 pt-lg-3">
+                <div class="row mt-5">
+                    <div class="col-lg-6">
+                        <p class="text-uppercase">A few words</p>
+                        <h2 class="aboutright">The most famous food in Myanmar!</h2>
+                        <p>Fermented or pickled tea is featured in the cuisines of many ethnicities who live near the
+                            geographical origin of tea, such as the cuisines of the Bulang and in Tai cuisine
+                        </p>
+                        <button type=" button" class="btn btn-warning button mt-md-5 mt-4"
+                            onclick="window.location='blog.html'">
+                            <span>Learn More</span>
+                        </button>
+                    </div>
+                    <div class="col-lg-6 about-img text-lg-enter">
+                        <center><img src="assets/img/lunch/Tea Leaf Salad - Copy.jpg" alt="" class="img-fluid"
+                                style="width: 400px; height: 400px;"></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Recommend -->
+
+    <!-- start Counter -->
+    <div id="counter">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h1 class="counter1">1</h1>
+                    <p>Branches</p>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h1 class="counter1">30</h1>
+                    <p>Visitors</p>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h1 class="counter1">50</h1>
+                    <p>Review</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Counter -->
+
+
+    <!-- popular food -->
+
+    <section>
+        <div class="container">
+            <div class="row p-5">
+                <h1 class="text-center">Popular Foods</h1>
+                <div class="col-md-3 pt-3">
+                    <div class="card shadow cardstyle" style="width: 18rem; ">
+                        <img src="/assets/img/breakfast/monhinga.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 pt-3">
+                    <div class="card shadow cardstyle " style="width: 18rem;">
+                        <img src="/assets/img/breakfast/Coconut Noodles - Copy.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 pt-3">
+                    <div class="card shadow cardstyle" style="width: 18rem;">
+                        <img src="/assets/img/breakfast/Nangyi Thoke.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 pt-3">
+                    <div class="card shadow cardstyle" style="width: 18rem;">
+                        <img src="/assets/img/lunch/Tea Leaf Salad - Copy.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- popular food -->
+
+    <!-- start Service -->
+    <!-- stats -->
+    <div class="services stats wthree-sub jarallax">
+        <div class="container">
+            <div class="col-sm-6 col-xs-5 stats_grid_left">
+            </div>
+            <div class="col-sm-6 col-xs-7 stats_grid_right">
+                <h3 class="stats-title statstitle2">Our Statistics</h3>
+
+                <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100" style="height: 20px;">
+                    <div class="progress-bar" style="width: 25%">Service</div>
+                </div>
+                <br>
+
+                <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100" style="height: 20px;">
+                    <div class="progress-bar bg-info" style="width: 70%">Sale</div>
+                </div>
+                <br>
+
+                <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100" style="height: 20px;">
+                    <div class="progress-bar " style="width: 75%">Food</div>
+                </div>
+                <br>
+
+                <div class="progress " role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100" style="height: 20px;">
+                    <div class="progress-bar bg-info" style="width: 70%">Consumer</div>
+                </div>
+                <br>
+                <!-- End Skill Bar -->
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <!-- //stats -->
+    <!-- end service -->
+
+    <!-- Start review -->
+    <div class="container pt-5 pb-5">
+        <h1 class=" text-center">Top Positive Reviews</h1><br>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 photo"> <img src="assets/review/1.png" width="100" height="100"><b>&nbsp;
+                    &nbsp;&nbsp;&nbsp;Adagio</b>
+                <p class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                    <span class="date"> &nbsp;12/3/2023</span>
+                </p>
+                <p>
+                    Excellent food. Menu is extensive and seasonal to a particularly high standard. Definitely fine
+                    dining. It can be expensive but worth it and they do different deals on different nights so it’s
+                    worth checking them out before you book. Highly recommended.
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-6 photo"><img src="assets/review/2.jpg" width="100" height="100"><b>&nbsp;
+                    &nbsp;&nbsp;&nbsp;Abana</b>
+                <p class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <span class="date"> &nbsp;19/12/2022</span>
+                </p>
+                <p>
+                    This cozy restaurant has left the best impressions! Hospitable hosts, delicious dishes, beautiful
+                    presentation, wide wine list and wonderful dessert. I recommend to everyone! I would like to come
+                    back here again and again.
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-6 photo"><img
+                    src="assets/review/professional-profile-pictures-1427-x-1920-txfewtw6mcg0y6hk.jpg" width="100"
+                    height="100"><b>&nbsp;
+                    &nbsp;&nbsp;&nbsp;Aadi</b>
+                <p class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                    <span class="date">&nbsp;28/5/2019</span>
+                </p>
+                <p>
+                    It’s a great experience. The ambiance is very welcoming and charming. Amazing food and
+                    service. Staff are extremely knowledgeable and make great recommendations.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End review -->
+
+    <!--start Footer -->
+    <footer>
+        <div class="container-fluid bg-dark textfont text-center">
+            <p>Created By: AKKK<br>
+                <a href="mailto:hege@example.com">hege@example.com</a>
+            </p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="node_modules/countup.js/dist/countUp.min.js"></script>
+    <script src="node_modules/countup.js/dist/requestAnimationFrame.polyfill.js"></script>
+    <script src="node_modules/countup.js/dist/countUp.umd.js"></script>
+</body>
+
+</html>
